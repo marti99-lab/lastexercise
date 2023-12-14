@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .booking-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontal zentrieren */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .booking-page-content {
+    width: 100%;
+    max-width: 600px; /* Beispiel: Begrenzung der Breite auf 600px */
+  }
+
+  .back-to-main-button {
+    margin-top: 150px; /* Erhöhe den Abstand nach Bedarf */
+    text-align: center;
+    color: #fff;
+    background-color: #F4CE14;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 200px; /* Setze die maximale Breite nach Bedarf */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .confirmation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  
+  .confirmation-content {
+    text-align: center;
+  }
+  
+  .back-to-home-button {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #F4CE14;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .booking-details-table {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+  .booking-details-table th, .booking-details-table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .booking-details-table th {
+    background-color: #f2f2f2;
+  }
