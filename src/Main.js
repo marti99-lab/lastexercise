@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import aboutImage from './images/abouttop.jpg';
 import aboutImageTwo from './images/aboutbackground.jpg';
 import saladImage from './images/greeksalad.jpg';
@@ -19,7 +20,7 @@ function Main() {
             <p className="main-special"> This weeks specials!</p>
           </div>
           <div style={{ height: '175px', width: '250px' }}>
-            <button className="main-button" aria-label="View Online Menu">Online Menu</button>
+            <Link to="#" className="main-button" aria-label="View Online Menu">Online Menu</Link>
             </div>
           </div>
 
@@ -52,27 +53,27 @@ function Main() {
 
         <div style={{ display: 'flex', justifyContent: 'space-around' }}>
           <div className="testimonial-card">
-            <p>Rating</p>
+            <p>4.2</p>
             <img src={starImage} alt="Star Image" className="star-image" />
-            <p>Name</p>
+            <p>Greek Salad</p>
           </div>
 
           <div className="testimonial-card">
-            <p>Rating</p>
-            <img src="testimonial_image2.jpg" alt="Testimonial 2" />
-            <p>Name</p>
+            <p>3.9</p>
+            <img src={starImage} alt="Star Image" className="star-image" />
+            <p>Bruchetta</p>
           </div>
 
           <div className="testimonial-card">
-            <p>Rating</p>
-            <img src="testimonial_image3.jpg" alt="Testimonial 3" />
-            <p>Name</p>
+            <p>4.7</p>
+            <img src={starImage} alt="Star Image" className="star-image" />
+            <p>Lemon Desert</p>
           </div>
 
           <div className="testimonial-card">
-            <p>Rating</p>
-            <img src="testimonial_image4.jpg" alt="Testimonial 4" />
-            <p>Name</p>
+            <p>3.9</p>
+            <img src={starImage} alt="Star Image" className="star-image" />
+            <p>Rice Pudding</p>
           </div>
         </div>
       </section>

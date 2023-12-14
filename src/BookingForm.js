@@ -5,7 +5,6 @@ const BookingForm = () => {
   const updateTimesReducer = (state, action) => {
     switch (action.type) {
       case 'UPDATE_TIMES':
-        // Implement logic to update availableTimes based on the selected date
         const newAvailableTimes = fetchAPI(action.payload.date);
         return { availableTimes: newAvailableTimes };
       default:
@@ -111,6 +110,8 @@ const BookingForm = () => {
         <select id="occasion" value={occasion} onChange={handleOccasionChange}>
           <option value="Birthday">Birthday</option>
           <option value="Anniversary">Anniversary</option>
+          <option value="Graduation Dinner">Graduation Dinner</option>
+          <option value="Job Promotion">Job Promotion</option>
         </select>
 
         <input

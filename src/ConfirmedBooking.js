@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import './Booking.css'; // Import the CSS file
+import './Booking.css';
 
 const ConfirmedBooking = () => {
   const location = useLocation();

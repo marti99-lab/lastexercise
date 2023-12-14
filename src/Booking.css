@@ -15,25 +15,25 @@ body {
   .booking-page-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Horizontal zentrieren */
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .booking-page-content {
     width: 100%;
-    max-width: 600px; /* Beispiel: Begrenzung der Breite auf 600px */
+    max-width: 600px;
   }
 
   .back-to-main-button {
-    margin-top: 150px; /* Erhöhe den Abstand nach Bedarf */
+    margin-top: 150px;
     text-align: center;
     color: #fff;
     background-color: #F4CE14;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
-    max-width: 200px; /* Setze die maximale Breite nach Bedarf */
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -44,11 +44,11 @@ body {
     justify-content: center;
     height: 50vh;
   }
-  
+
   .confirmation-content {
     text-align: center;
   }
-  
+
   .back-to-home-button {
     display: inline-block;
     margin-top: 5px;
@@ -59,18 +59,18 @@ body {
     border-radius: 5px;
     font-weight: bold;
   }
-  
+
   .booking-details-table {
     margin-top: 20px;
     border: 1px solid black;
     width: 100%;
   }
-  
+
   .booking-details-table th, .booking-details-table td {
     border: 1px solid black;
     padding: 8px;
   }
-  
+
   .booking-details-table th {
     background-color: #f2f2f2;
   }
